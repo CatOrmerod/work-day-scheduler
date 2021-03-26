@@ -5,7 +5,8 @@ function hourColorCode() {
     var currentHour = moment().hour();
     $(".time-block").each(function (){
         console.log($(this));
-        var currentTimeBlock = parseInt($(this).attr("id").split(".hour")[1]);
+        var currentTimeBlock = parseInt($(this).attr("id").split("hour")[1]);
+        console.log(currentTimeBlock, currentHour);
         if (currentTimeBlock < currentHour) {
             $(this).removeClass("future");
             $(this).removeClass("present");
