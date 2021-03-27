@@ -3,10 +3,11 @@ $("#currentDay").html(todayDate);
 
 function hourColorCode() {
     var currentHour = moment().hour();
-    $(".time-block").each(function (){
+    $(".hour").each(function (){
         console.log($(this));
         var currentTimeBlock = parseInt($(this).attr("id").split("hour")[1]);
         console.log(currentTimeBlock, currentHour);
+        console.log
         if (currentTimeBlock < currentHour) {
             $(this).removeClass("future");
             $(this).removeClass("present");
