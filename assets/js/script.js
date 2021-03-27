@@ -3,7 +3,7 @@ $("#currentDay").html(todayDate);
 
 function hourColorCode() {
     var currentHour = moment().hour();
-    $(".hour").each(function (){
+    $(".time-block").each(function (){
         console.log($(this));
         var currentTimeBlock = parseInt($(this).attr("id").split("hour")[1]);
         console.log(currentTimeBlock, currentHour);
@@ -33,7 +33,8 @@ saveBtn.on("click", function () {
     var time = $(this).parent().attr("id");
     var text = $(this).siblings(".description").val().trim();
 
-    localStorage.setItem("time", JSON.stringify(time));
-    localStorage.setItem("text", JSON.stringify(text));
-    console.log(localStorage);
+    localStorage.setItem(time, text);
+    console.log(time, text);
 })
+
+$("#hour8 .description").val(localStorage.getItem("hour8"));
