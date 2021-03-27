@@ -28,3 +28,12 @@ function hourColorCode() {
 
 hourColorCode();
 
+var saveBtn = $(".saveBtn");
+saveBtn.on("click", function () {
+    var time = $(this).parent().attr("id");
+    var text = $(this).siblings(".description").val().trim();
+
+    localStorage.setItem("time", JSON.stringify(time));
+    localStorage.setItem("text", JSON.stringify(text));
+    console.log(localStorage);
+})
