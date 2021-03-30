@@ -1,3 +1,4 @@
+
 # work-day-scheduler
 A simple calendar application that allows a user to save events for each hour of the day
 
@@ -25,7 +26,7 @@ The HTML and CSS were provided so only minor adjustments were required.  The JS 
 ## Screenshots
 
 The following image shows the web application's appearance and functionality:
-
+![work-day-schedule - all "past"](https://user-images.githubusercontent.com/78625200/112965780-4f359b80-9195-11eb-935e-37d827b7659c.png)
 
 
 ## URL
