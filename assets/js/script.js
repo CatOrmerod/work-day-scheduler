@@ -1,4 +1,4 @@
-// Function to tell the HTML page to run the script //
+// Function to tell the javascript code to execute //
 $(document).ready(function(){
 // Function to pull in the date for the current day that the user opens the schedule //    
     var todayDate = moment().format('dddd, MMM Do YYYY');
