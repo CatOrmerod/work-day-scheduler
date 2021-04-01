@@ -31,8 +31,5 @@ The following image shows the web application's appearance and functionality:
 
 ## URL
 The webpage can be viewed at the following URL <https://catormerod.github.io/work-day-scheduler/>
-<<<<<<< HEAD
 
 The repo can be viewed at the following URL <https://github.com/CatOrmerod/work-day-scheduler/>
-=======
->>>>>>> cd4da13337a0ec4725e507bd9d1184485a1c1848
