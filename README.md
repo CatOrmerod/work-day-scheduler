@@ -3,7 +3,7 @@ A simple calendar application that allows a user to save events for each hour of
 
 ## The Brief
 
-The HTML and CSS were provided so only minor adjustments were required.  The JS file on the other hand needed to be written from scratch.
+The HTML and CSS were provided so only minor adjustments were required.  The JS file on the other hand required extensive work.
 
 ## Basic features include:
 
@@ -17,7 +17,7 @@ The HTML and CSS were provided so only minor adjustments were required.  The JS 
     * If there is saved details in the local storage from a previous version, these will populate once the page loads
         - Initially this was done with a rudimentary list of getItem queries
         - I then worked to refine this into a more streamlined function that would call on each hour, and add anything from the storage
-    * I also added in a document ready function to ensure that the script was loaded ASAP since the page relies so heavily on the javascript functions
+    * I also added in a document ready function
 
 ```
 
@@ -30,3 +30,5 @@ The following image shows the web application's appearance and functionality:
 
 ## URL
 The webpage can be viewed at the following URL <https://catormerod.github.io/work-day-scheduler/>
+
+The repo can be viewed at the following URL <https://github.com/CatOrmerod/work-day-scheduler/>
